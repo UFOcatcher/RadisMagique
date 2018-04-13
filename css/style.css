@@ -1,0 +1,100 @@
+h1 {
+	font-size: 1.2em;
+}
+
+form {
+	width: 100%;
+}
+
+form input {
+	flex: 1;
+}
+
+form textarea {
+	width: 100%;
+}
+
+.rond {
+	border-radius: 50%;
+}
+
+#menu {
+	background-color: LightBlue;
+}
+
+#content {
+	background-color: Plum;
+	padding: 10px;
+}
+
+#commentaires {
+	background-color: Bisque;
+}
+
+.reponses .commentaire{
+	margin-left: 50px;
+}
+
+.bouton {
+  margin: 1rem;
+  padding: 0.7rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0.6rem;
+}
+
+.bouton.jaune {
+  color: #845600;
+  background-color: #ffc65d;
+  box-shadow: 0 0.3rem 0 #ffb42a;
+}
+
+.bouton.rose {
+  color: #84002f;
+  background-color: #ff5d96;
+  box-shadow: 0 0.3rem 0 #ff2a75;
+}
+
+.bouton.peche {
+	color: #fff;
+	background: #f274c1;
+	background: -moz-linear-gradient(left, #f274c1 1%, #ffff8c 100%);
+	background: -webkit-linear-gradient(left, #f274c1 1%,#ffff8c 100%);
+	background: linear-gradient(to right, #f274c1 1%,#ffff8c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f274c1', endColorstr='#ffff8c',GradientType=1 );
+	box-shadow: 0 0.3rem 0 #ff2a75;
+}
+
+.bouton:hover {
+  cursor: pointer;
+  margin-top: 1.3rem;
+  margin-bottom: 0.7rem;
+  box-shadow: none;
+}
+
+/* -- style desktop -- */
+@media screen and (min-width : 1280px){
+	body{
+		height: 100vh;
+		width: 100vw;
+	}
+
+	#menu {
+		flex: 1;
+	}
+
+	#content {
+		flex: 5;
+	}
+
+	#commentaires {
+		flex: 3;
+	}
+}
+
+/* -- style petits écrans --*/
+@media screen and (max-width : 1280px){
+	#necessaire {
+		flex: 1;
+	}
+}
