@@ -100,7 +100,7 @@
 					</form>
 				</div>
 			</div>
-			<?php for ($i=0; $i < 4; $i++) : ?>
+			<?php for ($i=0; $i < 18; $i++) : ?>
 				<div class="colonne commentaire">
 					<div class="ligne">
 						<img class="rond" src="http://via.placeholder.com/40x40" alt="">
