@@ -11,7 +11,7 @@ form input {
 }
 
 form textarea {
-	width: 100%;
+	flex: 1;
 }
 
 .rond {
@@ -19,16 +19,15 @@ form textarea {
 }
 
 #menu {
-	background-color: LightBlue;
+	/* background-color: LightBlue; */
 }
 
 #content {
-	background-color: Plum;
-	padding: 10px;
+	/* background-color: Plum; */
 }
 
 #commentaires {
-	background-color: Bisque;
+	/* background-color: Bisque; */
 }
 
 .reponses .commentaire{
@@ -74,20 +73,11 @@ form textarea {
 
 /* -- style desktop -- */
 @media screen and (min-width : 1280px){
-	#menu {
-		flex: 1;
-	}
-
-	#menu ul {
-		position: fixed;
-	}
-
-	#content {
-		flex: 5;
+	#content{
+		flex-shrink: 1;
 	}
 
 	#commentaires {
-		flex: 3;
 	}
 }
 
