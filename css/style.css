@@ -22,15 +22,15 @@ form textarea {
 	/* background-color: LightBlue; */
 }
 
-#content {
+#post {
 	/* background-color: Plum; */
 }
 
-#commentaires {
+#comments {
 	/* background-color: Bisque; */
 }
 
-.reponses .commentaire{
+.reponses .comment{
 	margin-left: 50px;
 }
 
@@ -73,11 +73,17 @@ form textarea {
 
 /* -- style desktop -- */
 @media screen and (min-width : 1280px){
-	#content{
-		flex-shrink: 1;
+	.lg-site{
+		width: 90vw;
+		margin: auto;
 	}
 
-	#commentaires {
+	#post{
+		flex-grow: 3;
+	}
+
+	#comments {
+		flex-grow: 1;
 	}
 }
 
