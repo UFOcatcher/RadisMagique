@@ -71,6 +71,11 @@ form textarea {
   box-shadow: none;
 }
 
+/* -- Recette -- */
+.etape p {
+	margin: 10px;
+}
+
 /* -- style desktop -- */
 @media screen and (min-width : 1280px){
 	.lg-site{
